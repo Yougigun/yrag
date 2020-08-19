@@ -1,0 +1,20 @@
+iris-mysql:
+    type: mysql
+    host: test-host
+    password: test_pw
+    database: test_database
+    port: test
+
+lily-mssql:
+    type: mssql
+    host: test-host
+    port: 1433
+    password: test_pw
+    database: test_database
+
+rose-redis:
+    type: redis
+    host: test-host
+    port: 6379
+    password: test_pw
+    database: test_database
