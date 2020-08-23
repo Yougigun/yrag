@@ -2,13 +2,16 @@
 
 ## Usage:
 ### First :
-<p>Create a folder named <b>models</b></p>
+Create a folder named <b>models</b>
+
 ### Seconde : 
 In models folder, 
 Create function named <b>model_[your-model-name]</b> 
 in <b>model_[your-model-name].py</b> 
+
 ### Third : 
 yrag build
+
 ### Forth : 
 yrag run   
 <br/>
