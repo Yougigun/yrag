@@ -16,7 +16,7 @@ def main():
         Please refer descriptions and Have a joyful experience!      
         ------------------------------------------------------------
         yrag build <project name> - Build up a application with the name up to you.
-        yrag deploy - Deploy this app in specific docker server.  
+        yrag run - Build and run image including the model.  
         """)
     elif arg[0]=="build":
         print("Yrag is Building ... ")

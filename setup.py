@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="yrag", # Replace with your own username,
-    version="0.1.0",
+    version="0.1.3",
     author="Gary",
     author_email="s14031403@gmail.com",
     description="Yrag aim to deploy machine-learing model quickly and easily",
@@ -27,6 +27,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    include_package_data=True,
     entry_points = {
     'console_scripts': [
         'yrag=yrag.yrag_cli:main'
