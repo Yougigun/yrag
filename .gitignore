@@ -1,6 +1,6 @@
 __pycache__
 .vscode/
 build/
-models/
+models
 dist
 *.egg-info/
