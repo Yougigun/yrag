@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="yrag", # Replace with your own username,
-    version="0.1.4",
+    version="0.1.5",
     author="Gary",
     author_email="s14031403@gmail.com",
     description="Yrag aim to deploy machine-learing model quickly and easily",

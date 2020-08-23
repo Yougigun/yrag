@@ -33,10 +33,9 @@ def main():
         
         
     elif arg[0]=="run":
-        print("Choose a good name for your image:\n")
         image = input("Choose a good name for your image:\n")
-        container = input("Choose a good name for your container:\n")
-        port = input("Choose a port:\n")
+        container = input("\nChoose a good name for your container:\n")
+        port = input("\nChoose a port:\n")
         os.system(f"docker rm -f {container}")
         os.system(f"docker build -f ./build/Dockerfile -t {image} .")
         os.system(f"docker run -d --name {container} -p {port}:80 {image}")
