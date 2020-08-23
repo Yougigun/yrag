@@ -1,3 +1,3 @@
-FROM yrag:python3.7
+FROM yuchihkang/yrag:python3.7
 
 COPY ./build/app /app/app
