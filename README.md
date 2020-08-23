@@ -1,10 +1,16 @@
 # YRAG is aimed to build up Web-API quickly!
 
 ## Usage:
-### First : Create a folder named <b>models</b>
-### Seconde : In models folder, Create function named <b>model_[your-model-name]</b> in <b>model_[your-model-name].py</b> 
-### Third : yrag build
-### Forth : yrag run   
+### First :
+<p>Create a folder named <b>models</b></p>
+### Seconde : 
+In models folder, 
+Create function named <b>model_[your-model-name]</b> 
+in <b>model_[your-model-name].py</b> 
+### Third : 
+yrag build
+### Forth : 
+yrag run   
 <br/>
 
 ## Package included: 
