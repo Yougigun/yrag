@@ -2,7 +2,14 @@
 This is a simple example package. You can use
 [yrag](https://github.com/Yougigun/yrag)
 to write your content.
+<br/>
 
+## Usage:
+### First : Create a folder named <b>models</b>
+### Seconde : In models folder, Create function named <b>model_[your-model-name]</b> in <b>model_[your-model-name].py</b> 
+### Third : yrag build
+### Forth : yrag run   
+<br/>
 
 ## Package included: 
 ### Data Science package
