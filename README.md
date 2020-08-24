@@ -1,4 +1,8 @@
-# YRAG is aimed to build up Web-API quickly!
+# YRAG aims to build up Machine-Learning Web-API easily!
+
+## Install :
+pip install yrag
+
 
 ## Usage:
 ### First :
@@ -12,7 +16,7 @@ in <b>model_[your-model-name].py</b>
 ### Third : 
 yrag build
 
-### Forth : 
+### Forth <Requirement: Docker> :
 yrag run   
 <br/>
 
